@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quiz App - Complete Project
 
 A full-stack quiz application with Node.js backend, Express API, MongoDB database, and vanilla JavaScript frontend.

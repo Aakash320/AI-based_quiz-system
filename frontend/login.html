@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — Quiz App</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+
+  <div class="login-outer">
+    <div class="login-card">
+
+      <div class="login-header">
+        <h1 id="form-title">Quiz App</h1>
+        <p id="form-subtitle">Login to your account</p>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" class="input-field" placeholder="John" autocomplete="off" />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" class="input-field" placeholder="Doe" autocomplete="off" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="input-field" placeholder="john@example.com" autocomplete="off" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Username</label>
+        <input type="text" id="phone" class="input-field" placeholder="Enter username" autocomplete="off" />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="input-field" placeholder="Enter password" />
+      </div>
+
+      <button id="login-btn" class="btn btn-primary login-btn-full">Login</button>
+
+      <div class="login-footer">
+        <button id="toggle-btn" class="toggle-link">Don't have an account? Register</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="utils/helpers.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
